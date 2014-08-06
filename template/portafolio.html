@@ -1,52 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang='es'>
 	<head>
 		<title>Portafolio</title>
-		<meta chartset='UTF-8'>
-		<link rel="stylesheet" href="../static/css/estilos.css">
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../static/css/normalize.css" />
+		<link rel="stylesheet" href="../static/css/estilos.css" />
 	</head>
 	<body>
-		<header id='yo'>
-			<nav>
-				<ul>
+		<header id='yo' class="Header">
+			<nav class="MainMenu">
+				<ul class="MainMenu-list">
 					<li>
-						<a href="#yo">yo</a>
+						<a href="#yo" class="MainMenu-link">yo</a>
+					</li class="MainMenu-item">
+					<li>
+						<a href="#perfil" class="MainMenu-link">Perfil</a>
 					</li>
 					<li>
-						<a href="#trabajo">Mi trabajo</a>
+						<a href="#trabajo" class="MainMenu-link">Mi trabajo</a>
 					</li>
 					<li>
-						<a href="#contacto">Contacto</a>
+						<a href="#contacto" class="MainMenu-link">Contacto</a>
 					</li>
 				</ul>
 			</nav>
-			<figure>
-				<img src="avatar.jpg" alt="@clemenshemmer" />
-				<figcaption>
-					<a href="https://twitter.com/clemenshemmer" target="_blank">@clemenshemmer</a>
+			<figure class="Heder-imageContainer">
+				<img src="avatar.jpg" alt="@clemenshemmer" class="Header-image"/>
+				<figcaption class="Header-description">
+					<a href="https://twitter.com/clemenshemmer" target="_blank" class="Header-link">@clemenshemmer</a>
 				</figcaption>
-				<p>Clemen Hemmerling</p>
+				<p class="header-name">Clemens Hemmerling </p>
 			</figure>
 		</header>
-		<section id='trabajo'>
+		<section id='perfil' class="Profile">
+			<h2>Mi perfil</h2>
+			<p>Hola bienvenido a mi portafolio online porfavor cantactame</p>
+			<a href="https://twitter.com/clemenshemmer" target="_blank">@clemenshemmer</a>
+			<a href="https://github.com/Clemenshemmerling/" target="_blank">Clemenshemmerling</a>
+		</section>
+		<section id='trabajo' class="Work">
+			<h1 class="Work-tittle">Mi trabajo</h1>
+			<article class="Work-item">
+				<figure>
+					<img src="trabajo.jpg" alt="Mejorando.la" class="Work-image">
+					<figcaption class="Work-description">Portafolio de Clemens</figcaption>
+				</figure>
+			</article>
 			<article>
 				<figure>
-					<img src="trabajo.jpg" alt="Mejorando.la">
+					<img src="trabajo.jpg" alt="Mejorando.la" class="Work-image">
+					<figcaption>Portafolio de Clemens</figcaption>
 				</figure>
 			</article>
 			<article>
 				<figure>
 					<img src="trabajo.jpg" alt="Mejorando.la">
-				</figure>
-			</article>
-			<article>
-				<figure>
-					<img src="trabajo.jpg" alt="Mejorando.la">
+					<figcaption>Portafolio de Clemens</figcaption>
 				</figure>
 			</article>
 		</section>
-		<footer id='contacto'>
-			<h3>Contacto</h3>
+		<footer id='contacto' class="Footer">
+			<h3 class="Footer-tittle">Contacto</h3>
 			<p>Si quieres contratarme puedes escribirme en el seguiente formulario</p>
 			<form>
 				<input type="text" placeholder="Nombre">
