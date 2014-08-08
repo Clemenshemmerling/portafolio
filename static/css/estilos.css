@@ -58,10 +58,6 @@
 	border-radius: 50%;
 	width: 200px;
 }
-.Header-imageDescription
-{
-
-}
 .Header-link, .Header-name
 {
 	 color: white;
@@ -82,14 +78,6 @@
 { 
 	text-align: center;
 }
-.Profile-title
-{
-
-}
-.Profile-description
-{
-
-}
 .Profile-link
 {
 	background: orange;
@@ -104,10 +92,6 @@
 	margin-top: 2em;
 	text-align: center;
 }
-.Work-tittle
-{
-
-}
 .Work-item
 {
 	display: inline-block;
@@ -117,10 +101,6 @@
 .Work-imageContainer
 {
 	margin: 0;
-}
-.Work-image
-{
-
 }
 .Work-description
 {
@@ -141,10 +121,6 @@
 {
 	color: white;
 	font-weight: normal;
-}
-.Footer-description
-{
-
 }
 .Footer-form
 {
@@ -180,5 +156,4 @@
 	display: inline-block;
 	width: 32em;
 	vertical-align: top;
-
 }
